@@ -1,3 +1,6 @@
+import Sidebar  from "@/components/common/Sidebar";
+
+
 export default function RootLayout({
   children,
 }: {
@@ -5,6 +8,8 @@ export default function RootLayout({
 }) {
   return (
     <main className="root">
+      <Sidebar/>
+      {/* <MobileNav/> */}
       <div className="root-container">
         <div className="wrapper">{children}</div>
       </div>
