@@ -22,7 +22,7 @@ const MobileNavBar = () => {
     <header className="header">
       <Link href="/" className="flex items-center gap-2 md:py-2">
         <Image
-          src="assets/images/logo-text.svg"
+          src="./assets/images/logo-text.svg"
           alt="logo"
           width={180}
           height={28}
@@ -34,7 +34,7 @@ const MobileNavBar = () => {
           <Sheet>
             <SheetTrigger>
               <Image
-                src="assets/icons/menu.svg"
+                src="./assets/icons/menu.svg"
                 alt="logo"
                 width={32}
                 height={32}
@@ -44,7 +44,7 @@ const MobileNavBar = () => {
             <SheetContent className="sheet-content sm:w-64">
               <>
                 <Image
-                  src="assets/images/logo-text.svg"
+                  src="./assets/images/logo-text.svg"
                   alt="logo"
                   width={152}
                   height={23}

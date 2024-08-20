@@ -1,6 +1,6 @@
 import mongoose,{ Document }  from "mongoose";
 
-interface User_type extends Document{
+export interface User_type extends Document{
     clearkId:string,
     email:string,
     username:string,

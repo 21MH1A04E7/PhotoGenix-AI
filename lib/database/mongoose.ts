@@ -16,7 +16,7 @@ if(!catched){
     }
 }
 
-export const connectToDB=async()=>{
+export const connectToDatabase=async()=>{
     if(catched.connect) return catched.connect
     if(!MONGODB_URL) throw new Error('pls provide the mongodb url')
     catched.promise=catched.promise||mongoose.connect(MONGODB_URL,{
