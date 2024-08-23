@@ -1,5 +1,6 @@
 import MobileNavBar from "@/components/common/MobileNavBar";
 import Sidebar  from "@/components/common/Sidebar";
+import { Toaster } from "@/components/ui/toaster";
 
 
 export default function RootLayout({
@@ -14,6 +15,7 @@ export default function RootLayout({
       <div className="root-container">
         <div className="wrapper">{children}</div>
       </div>
+      <Toaster/>
     </main>
   );
 }

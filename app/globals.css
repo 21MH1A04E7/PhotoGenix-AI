@@ -187,7 +187,7 @@
   }
 
   .submit-button {
-    @apply bg-purple-gradient bg-cover rounded-full py-4 px-6 p-16-semibold h-[50px] w-full md:h-[54px];
+    @apply bg-[#00a8ff] bg-cover rounded-full py-6 px-6 p-16-semibold h-[50px] w-full md:h-[54px];
   }
 
   .select-field {
@@ -237,7 +237,7 @@
   }
 
   .credits-btn {
-    @apply w-full rounded-full bg-purple-100 bg-cover text-purple-500 hover:text-purple-500;
+    @apply w-full rounded-full bg-purple-100 bg-cover text-[#00a8ff] hover:text-[#2ba2de];
   }
 
   /* Profile Page */
