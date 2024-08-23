@@ -21,7 +21,7 @@ const MobileNavBar = () => {
   return (
     <header className="header">
       <Link href="/" className="flex items-center gap-2 md:py-2">
-        <h2 className="text-lg font-bold text-white bg-[#1982d7] py-1 rounded-lg w-full flex justify-center px-3">PHOGENIX-AI</h2>
+        <h2 className="text-lg font-bold text-white bg-[#4599de] py-1 rounded-lg w-full flex justify-center px-3">PHOGENIX-AI</h2>
       </Link>
       <nav>
         <SignedIn>
