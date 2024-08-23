@@ -21,12 +21,7 @@ const MobileNavBar = () => {
   return (
     <header className="header">
       <Link href="/" className="flex items-center gap-2 md:py-2">
-        <Image
-          src="./assets/images/logo-text.svg"
-          alt="logo"
-          width={180}
-          height={28}
-        />
+        <h2 className="text-lg font-bold text-white bg-[#1982d7] py-1 rounded-lg w-full flex justify-center px-3">PHOGENIX-AI</h2>
       </Link>
       <nav>
         <SignedIn>
@@ -43,12 +38,7 @@ const MobileNavBar = () => {
             </SheetTrigger>
             <SheetContent className="sheet-content sm:w-64">
               <>
-                <Image
-                  src="./assets/images/logo-text.svg"
-                  alt="logo"
-                  width={152}
-                  height={23}
-                />
+                <h2 className="text-lg font-extrabold text-[#2386d6]">PHOTOGENIX-AI</h2>
               </>
               <ul className="header-nav_elements">
                 {navLinks.map((links) => {

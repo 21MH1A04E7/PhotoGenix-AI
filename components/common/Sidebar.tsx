@@ -14,12 +14,7 @@ function Sidebar() {
     <aside className="sidebar">
       <div className="flex size-full flex-col gap-4">
         <Link href="/" className="sidebar-logo">
-          <Image
-            src="/assets/images/logo-text.svg"
-            alt="logo"
-            width={180}
-            height={28}
-          />
+          <h2 className="text-lg font-bold text-white bg-[#1982d7] py-1 rounded-lg w-full flex justify-center">PHOGENIX-AI</h2>
         </Link>
         <nav className="sidebar-nav">
          <SignedIn>
